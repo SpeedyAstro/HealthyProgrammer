@@ -38,6 +38,8 @@ if __name__ == "__main__":
             except: 
                 print("Some Error!") 
             print('Task Completed!') 
+        elif oc == 0:
+            exit()
         else :
             print("Enter valid Choice")
 
